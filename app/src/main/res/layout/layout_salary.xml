@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F676FF"
+    android:gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/userName"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/edit_But"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/emailAddress"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="92dp" />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/deleteBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete_forever_24"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
