@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#BFC2D3"
     android:padding="15dp"
     tools:context=".MainActivity">
     <androidx.core.widget.NestedScrollView
@@ -43,7 +44,8 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="#7A7880"/>
 
 
 </LinearLayout>
